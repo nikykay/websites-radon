@@ -1,0 +1,260 @@
+.section-contact {
+  padding-top: 45px;
+  margin: 0 52px;
+}
+.section-contact *::selection {
+  background-color: black;
+}
+.section-contact h1::selection {
+  background-color: transparent !important;
+}
+.section-contact h3::selection {
+  background-color: transparent !important;
+}
+.gfield_required span {
+  display: none;
+}
+
+.gfield_required::after {
+  content: "*";
+  margin-left: 3px;
+}
+.gform {
+  min-width: 50%;
+
+}
+
+.pad-box {
+  color: $secondary_text;
+  margin-bottom: 100px;
+}
+
+.def p span {
+  cursor: pointer;
+}
+.cont-par {
+  margin-top: -18px;
+}
+.sec-part-2 {
+  margin-top: 35px;
+}
+.gform_footer button {
+  float: left;
+}
+.form-title {
+  font-size: 29px;
+  margin-block-end: 7.2px;
+  margin-block-start: 12px;
+  margin-bottom: 22px;
+}
+
+.gform label {
+  font-family: 'Lato', sans-serif;
+  font-size: 15.6px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: $secondary_text;
+}
+
+.gform legend {
+  font-family: 'Lato', sans-serif;
+  font-size: 15.6px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: $secondary_text;
+}
+.name_first label, .name_last label {
+  padding-top: 5px;
+  font-weight: 400;
+}
+
+
+//.name_last input {
+//  margin-left: -20px;
+//}
+
+
+
+.gform input {
+  //width: 465px;
+  height: 28px;
+  box-shadow: rgba(0,0,0,0.08) 0px 0px 4px 0px inset;
+  border-color: rgba(0, 0, 0, 0.15);
+  font-family: 'Lato', sans-serif;
+  font-size: 15.6px;
+  font-weight: 400;
+  padding: 8.5px;
+}
+
+.textarea {
+  box-shadow: rgba(0,0,0,0.08) 0px 0px 4px 0px inset;
+  border-color: rgba(0, 0, 0, 0.15);
+  font-family: 'Lato', sans-serif;
+  font-size: 15.6px;
+  font-weight: 400;
+  padding: 9.8px 14.7px;
+  width: 100%
+}
+
+.info-box {
+  background-color: $dark_gray;
+  width: 50%;
+  height: 475px;
+  padding-top: 36px;
+  margin-top: 20px;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.third-part span {
+  font-weight: 400;
+}
+.form-field-size input {
+  height: 36px;
+}
+.common-class input {
+  height: 36px;
+  gap: 20px;
+}
+@media screen and (max-width: 2560px) {
+  .form-field-size input {
+    max-width: 600px !important;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .form-field-size input {
+    max-width: 441px !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .form-field-size input {
+    max-width: 330px !important;
+  }
+  .common-class span {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .form-field-size input {
+    max-width: 210px !important;
+  }
+  .section-contact {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-field-size input {
+    max-width: 375px !important;
+  }
+  .common-class {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 567px) {
+  .info-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 385px) and (max-width: 640px) {
+  .common-class span {
+    flex: 1 1 0;
+    margin-right: 15px;
+  }
+  .common-class {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 384px) {
+  .common-class span {
+    flex: unset;
+  }
+  .common-class {
+    width: 50%;
+  }
+}
+
+.common-class {
+  width: 92%;
+}
+.gform textarea {
+  height: 180px;
+  resize: none;
+}
+.gform button {
+  background-color: #666666;
+  font-weight: bold;
+}
+.gform button:hover {
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2) !important;
+  background-color: #666666 !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  //.flex-box {
+  //  justify-content: normal !important;
+  //  flex-direction: column !important;
+  //}
+  //}
+
+  //.info-box {
+  //  width: 100% !important;
+  //}
+  //.section-contact {
+  //  margin: 0 10px;
+  //}
+}
+@media screen and (min-width: 569px) and (max-width: 800px) {
+  .gform button {
+    width: 344px;
+  }
+  .gform {
+    min-width: unset !important;
+    width: 49% !important;
+  }
+  .section-contact .flex-box {
+    gap: 15px;
+  }
+
+}
+@media screen and (max-width: 568px) {
+  .gform button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .mainer300 {
+    padding-top: 400px;
+  }
+  .section-contact {
+    padding-top: 0;
+    margin: -230px 24px 0 24px;
+  }
+}
+//.flex-box div {
+//  width: 50%;
+//}
+
+@media screen and (max-width: 640px){
+  .section-contact{
+    .flex-box{
+      flex-direction: row !important;
+    }
+  }
+}
+
+@media screen and (max-width: 568px){
+  .section-contact{
+    .flex-box{
+      flex-direction: column !important;
+    }
+  }
+}

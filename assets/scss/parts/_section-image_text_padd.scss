@@ -1,0 +1,339 @@
+.image-text-padd-section {
+  background-color: $light_gray;
+  display: flex;
+  justify-content: space-between;
+  //gap: 30px;
+  padding: 109px 55px 108px 55px;
+}
+
+//.image-text-padd-section div {
+//
+//  width: 50%;
+//}
+
+.padd-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40.5px;
+  margin-block-end: 12px;
+
+}
+
+.padd-sec-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.68px;
+  line-height: 36px;
+  margin-block-end: 24px;
+}
+
+.padd-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-block-end: 16.8px;
+  margin-block-start: 16.8px;
+  color: $secondary_text;
+  padding-top: 30px !important;
+}
+.pd10 {
+  padding-top: 10px;
+}
+.padd-list {
+  list-style-type: square;
+  color: $secondary_text;
+  margin-left: 10px !important;
+}
+.padd-list li {
+  font-size: 19.2px;
+  color: $secondary_text;
+  padding-top: 12px;
+}
+.radon-ed-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40.5px;
+  margin-block-end: 12px;
+}
+
+.radon-ed-sub-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-block-end: 24px;
+  letter-spacing: 1.68px;
+}
+
+.radon-ed-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-block-end: 17px;
+  margin-block-start: 17px;
+}
+.radon-ed-rem-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.68px;
+  margin-block-end: 24px;
+}
+.radon-ed-rem-descr {
+  color: $secondary_text;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.content-box p  {
+  font-family: 'Lato', sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-block-end: 17px;
+  margin-block-start: 17px;
+}
+.content-container {
+
+  width: 100%;
+}
+
+.content-container img {
+  width: 50%;
+}
+.mr {
+  margin-top: 15px;
+}
+.content-container *::selection {
+  background-color: black;
+}
+.content-container h1::selection {
+  background-color: $white !important;
+}
+.content-container h4::selection {
+  background-color: $white !important;
+}
+.radon-ed-rem-list li{
+  font-family: 'Lato', sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 12px;
+  color: $secondary_text;
+}
+
+.sq {
+  list-style-type: square;
+}
+.content-container p {
+  font-family: 'Lato', sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-block-end: 16.8px;
+  margin-block-start: 16.8px;
+  color: $secondary_text;
+
+}
+
+.mar {
+  padding-top: 18px;
+}
+.pad {
+  padding-top: 20px;
+}
+//.str {
+//  padding-right: 12px !important;
+//}
+
+.padd-d {
+  padding-top: 10px;
+}
+@media screen and (min-width: 801px ) and (max-width: 1024px) {
+  .image-container {
+    margin-top: -35px;
+  }
+
+}
+@media screen and (min-width: 801px ) and (max-width: 1024px) {
+  .image-text-padd-section {
+    margin-top: -40px;
+    padding: 82px 40px 108px 40px;
+    .content-container p:last-child {
+      
+    }
+  }
+  .str {
+    margin-top: -65px;
+  }
+  .padd-list {
+    width: 142%;
+  }
+
+  .for-res {
+    width: 97%;
+
+  }
+  .padd-description {
+    padding-top: 0 !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .image-text-padd-section {
+    justify-content: normal;
+    flex-direction: column-reverse;
+    gap: 25px;
+    padding: 0 24px 75px 24px !important;
+    .radon-ed-description {
+      font-size: 14.4px;
+      line-height: 21.6px;
+    }
+  }
+  .radon-ed-description {
+    font-size: 14.4px !important;
+    line-height: 21.6px !important;
+  }
+  .sq {
+    margin-left: 10px;
+  }
+  .image-text-padd-section div {
+    width: 100%;
+  }
+  .image-container {
+    margin-top: 50px;
+  }
+  .padd-description {
+    margin-top: -30px !important;
+  }
+
+}
+
+.content-container p:last-child {
+  margin-top: 25px;
+}
+.radon-ed-title span {
+  font-size: 36px;
+}
+@media screen and (max-width: 800px) {
+  .mainer {
+    //padding-top: 340px;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container img {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .padd-description {
+    font-size: 14.4px !important;
+    line-height: 21px !important;
+  }
+  .padd-list li {
+    font-size: 14.4px;
+    line-height: 21px;
+  }
+  .reminder-description {
+    font-size: 14.4px !important;
+    line-height: 21px !important;
+  }
+  .padd-d {
+    font-size: 14.4px !important;
+    line-height: 21px !important;
+    margin-top: -5px !important;
+  }
+  .lp {
+    margin-top: -15px !important;
+  }
+  .content-box p {
+    font-size: 14.4px;
+    line-height: 21.8px;
+  }
+  .radon-ed-rem-list li {
+    font-size: 14.4px;
+    line-height: 21.8px;
+  }
+  .mar425 {
+    padding-top: 0 !important;
+  }
+  .content-container p:last-child {
+    margin-top: 0;
+  }
+  .padd-list {
+    margin-top: -10px !important;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .padd-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .padd-sec-title {
+    font-size: 16.8px !important;
+    line-height: 25px !important;
+    letter-spacing: 1.176px !important;
+  }
+  .reminder-title {
+    font-size: 16.8px !important;
+    line-height: 25px !important;
+    letter-spacing: 1.176px !important;
+  }
+  .radon-ed-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .radon-ed-sub-title {
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-block-end: 24px;
+    letter-spacing: 1.176px;
+  }
+  .radon-ed-description {
+    width: 108%;
+  }
+  .radon-ed-rem-title {
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.176px;
+  }
+  .content-box p {
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 21.6px;
+  }
+  .radon-ed-rem-list li {
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 21.6px;
+  }
+  .reminder-button {
+    padding: 6.4px 8.9px;
+
+  }
+  .add {
+    margin-top: -17px;
+  }
+
+  .add2 {
+    margin-bottom: 0;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .image-text-padd-section {
+    padding: 0 24px 100px 24px;
+  }
+  .radon-ed-description {
+    padding-right: 29px;
+  }
+}

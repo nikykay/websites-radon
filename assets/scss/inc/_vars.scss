@@ -1,0 +1,28 @@
+// Project variables
+$yellow: #e3c424;
+$text-color: #000000;
+$main-color: $yellow;
+$sub-color: $main-color;
+$dark_gray: #666666;
+$black: #2e2e2e;
+$white: #fff;
+$medium_gray: #9B9B9B;
+$light_gray: #ebebed;
+$lighter_gray: #ededed;
+$secondary_text: #575757;
+
+$font: 'Open Sans', sans-serif;
+$sub-font: $font;
+$fa: 'Font Awesome 6 Free';
+$fab: 'Font Awesome 6 Brands';
+
+// Font Awesome Vars
+$fa-font-path: "../fonts";
+$fa-font-display: swap;
+
+// Project mixins
+
+
+// Custom fonts
+// Use https://transfonter.org/ service with "Fix vertical metrics" setting
+// to get correct converted web fonts. Use woff2 format. NOT ttf or otf!

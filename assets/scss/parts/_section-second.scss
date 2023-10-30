@@ -1,0 +1,23 @@
+
+.yellow-box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 0 20px;
+  margin-top: -120px;
+}
+.yellow-box {
+  width: 100%;
+  background-color: #e3c424;
+  padding: 94px;
+}
+
+.inner-box {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .yellow-box-container {
+    flex-direction: column;
+  }
+}

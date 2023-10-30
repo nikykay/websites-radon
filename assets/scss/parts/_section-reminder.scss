@@ -1,0 +1,52 @@
+.reminder-section {
+  margin: 0 24px;
+  padding: 36px 31px 24px 23px;
+}
+.reminder-section *::selection {
+  background-color: black;
+}
+.content-box h3::selection {
+  background-color: transparent !important;
+}
+.reminder-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.68px;
+  margin-block-end: 24px;
+}
+
+.reminder-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 17.2px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: $secondary_text;
+}
+
+.reminder-button {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: $main_color;
+  line-height: 1.5px;
+  border: 1px solid transparent;
+  padding: 9.6px 19.2px;
+  background-color: $medium_gray;
+
+}
+
+.reminder-button:hover {
+  background-color: $black;
+  color: $main_color;
+}
+.mr {
+  margin-bottom: 25px !important;
+  padding-top: 15px;
+}
+
+@media  screen and (max-width: 800px) {
+  .reminder-section {
+    padding: 36px 0 24px 0;
+  }
+}

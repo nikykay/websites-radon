@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="592549f4-e5e4-4cae-9c4e-9dd4ed5c92f4" name="radon" url="https://gobeyondraddev.wpengine.com/">
+        <fileTransfer rootFolder="/wp-content/themes/foundation_new" accessType="SFTP" host="gobeyondraddev.sftp.wpengine.com" port="2222" sshConfigId="a9ad5860-3af6-4ca1-ab1c-f99f00be2a19" sshConfig="gobeyondraddev-developer@gobeyondraddev.sftp.wpengine.com:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
